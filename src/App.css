@@ -1,0 +1,41 @@
+h2{
+    font-family: "Winky Sans", sans-serif;
+    font-size: 40px;
+    color: rgb(46, 20, 0);
+}
+
+body{
+    font-family: "Winky Sans", sans-serif;
+    color: rgb(46, 20, 0);
+}
+
+i{
+    font-size: 5vw;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+}
+
+section{
+    padding-top: 30px;
+}
+
+.padding-section{
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    color: rgb(46, 20, 0);
+    text-decoration: none;
+}
