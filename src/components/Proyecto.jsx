@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Proyecto = (props) => {
-    const { titulo, descripcion, imagen, repositorio } = props;
+    const { titulo, descripcion, imagen, repositorio, url } = props;
     return (
 
         <div className="row p-3">
@@ -12,7 +12,7 @@ const Proyecto = (props) => {
                     href={repositorio} target="_blank" rel="noopener noreferrer">Ir al repositorio</a>
             </div>
             <div className="col-8">
-                <a href={imagen} target="_blank" rel="noopener noreferrer">
+                <a href={url} target="_blank" rel="noopener noreferrer">
                     <img src={imagen} alt={titulo} />
                 </a>
             </div>
